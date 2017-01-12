@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 
-# Inherit some common CM stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/santos10lte/full_santos10lte.mk)
 
-PRODUCT_NAME := cm_santos10lte
+PRODUCT_NAME := lineage_santos10lte
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := GT-P5220
 
