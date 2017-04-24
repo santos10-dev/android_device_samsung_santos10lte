@@ -25,4 +25,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     telephony.lteOnGsmDevice=1 \
     ro.telephony.default_network=9
 
-$(call inherit-product, vendor/samsung/santos10lte/device-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/santos10lte/santos10lte-vendor.mk)
