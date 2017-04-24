@@ -17,7 +17,6 @@
 $(call inherit-product, device/samsung/santos10-common/device-common.mk)
 $(call inherit-product, device/samsung/santos10-common/device-common-gsm.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/samsung/santos10-common/overlay-gsm
 DEVICE_PACKAGE_OVERLAYS += device/samsung/santos10lte/overlay
 
 # RIL
